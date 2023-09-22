@@ -3,44 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Web Layout</title>
 </head>
 <body>
-    <table border="1" cellspacing="5" cellpadding="10" >
-        <tr>
-            <th><img src="../Image/logo.png" alt="" width="100px" height="100px"></th>
-            <th width="100px" height="50px"><a href="./web2.html">Home</a></th>
-            <th width="100px" height="50px">Practice 
-                <details>
-                    <summary>Image</summary>
-                    <summary>Inroduction Of Table</summary>
-                    <summary>List Tags</summary>
-                    <summary>Class And ID</summary>
-                </details>
-            </th>
-            <th width="100px" height="50px">Task</th>
-            <th width="100px" height="50px">Practical</th>
-            <th width="100px" height="50px">Contact Us</th>
-        </tr>
+    <table border="1" width="100%">
        <tr>
-        <th width="400px">Index
-            <ol type="1">
-                <a href="../Practice/faviconandhtml.html" target="_self">Html<li></li></a>
-                <a href="../Practice/iframe.html" target="_self">Iframe<li></li></a>
-                <a href="../Practice/Nestedtags.html" target="_self">Nestedtags<li></li></a>
-                <a href="../Practice/pt1.html" target="_self">Practice1<li></li></a>
-                <a href="../Practice/questions.html" target="_self">Html questions<li></li></a>
-                <a href="../Introduction Of Table/studentmark.html" target="_self">studentmarks<li></li></a>
-                <a href="../Image/logo.png" target="_self">Image<li></li></a>
-                <a href="../List Tags/practiceday.html" target="_self">List Tags<li></li></a>
-                <a href="../List Tags/pt2.html" target="_self">Practice2<li></li></a>
-                <a href="../Class And Id/Class.html" target="_self">Class And Id<li></li></a>
-            </ol>
-        </th>
-        <th width="1200px" height="560px" colspan="5"><h1>The Display <br>
-            <iframe src="../Introduction Of Table/t1.html" frameborder="0" width="600px" height="450px"></iframe>
-        </h1></th>
+        <td width="100px"><img src="../Image/logo.png" alt="" width="100px" height="100px"></td>
+        <td width="100px"><a href="./web1.html">Home</a></td>
+        <td width="100px"><a href="./web2.html" target="content">Task</a></td>
+        <td width="100px"><a href="./web3.html" target="content">practice</a></td>
+        <td width="100px"><a href="./web4.html" target="content">Practical</a></td>
+        <td width="100px"><a href="./web5.html" target="display">Contact Us</a></td>
        </tr>
+        <tr height="495px">
+            <td width="20%"><iframe src="" name="content" frameborder="0"></iframe></td>
+            <td width="80%" colspan="5"><iframe src="" name="display" frameborder="0" width="1200px" height="600px"></iframe></td>
+        </tr>
     </table>
 </body>
 </html>
